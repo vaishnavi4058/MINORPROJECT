@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color:chocolate;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h4 {
+    color: #5526e2;
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Hero Section */
+.hero {
+    color: rgb(230, 13, 13);
+    text-align: center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+/* Services Section */
+.services img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact h4 {
+    margin-top: 20px;
+}
+
+.contact p {
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color:black;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* About Section */
+.about {
+    color:blue;
+    text-align: center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.about h2 {
+    font-size: 5.5rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 5.5rem;
+    }
+
+    .services img {
+        max-width: 100%;
+    }
+
+    .about h2 {
+        font-size: 5.5rem;
+    }
+}
